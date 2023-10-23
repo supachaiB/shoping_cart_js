@@ -1,0 +1,117 @@
+.container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #5a5a5a;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(180, 177, 177, 0.5); /* เพิ่มเอฟเฟกต์เงา */
+  color: #333; /* กำหนดสีตัวอักษร */
+}
+
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-reset {
+  background-color: #ff0b0b; /* เปลี่ยนสีพื้นหลังเมื่อปกติ */
+  border: 2px solid #ff0b0b; /* เปลี่ยนสีขอบ */
+  color: #fff; /* เปลี่ยนสีข้อความเป็นขาว */
+  font-weight: bold;
+  padding: 10px 20px; /* ปรับขนาดของปุ่ม */
+  border-radius: 50px; /* ทำให้มีรูปร่างวงกลม */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* เพิ่มการเปลี่ยนแปลงสีอย่างน้อย 0.3 วินาที */
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(180, 177, 177, 0.5); /* เพิ่มเอฟเฟกต์เงา */
+  color: #ffffff; /* กำหนดสีตัวอักษร */
+}
+
+.btn-reset:hover {
+  background-color: #ff0000; /* เปลี่ยนสีพื้นหลังเมื่อโฮเวอร์ */
+  color: #000000; /* เปลี่ยนสีข้อความเมื่อโฮเวอร์ */
+  border: 2px solid #ff0000; /* เปลี่ยนสีขอบเมื่อโฮเวอร์ */
+}
+
+
+.row {
+  margin-top: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(180, 177, 177, 0.5); /* เพิ่มเอฟเฟกต์เงา */
+}
+
+.col-md-3 {
+  margin-bottom: 20px;
+}
+
+.item-container {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.item-container:hover {
+  transform: scale(1.05);
+}
+
+.item-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.item-price {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.btn-add-counter {
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-add-counter:hover {
+  background-color: #b30000;
+  color: #000000; /* เปลี่ยนสีข้อความเมื่อโฮเวอร์ */
+}
+
+.btn-delete-counter {
+  background-color: #414141;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete-counter:hover {
+  background-color: #3f3232;
+  color: #000000; /* เปลี่ยนสีข้อความเมื่อโฮเวอร์ */
+}
+
